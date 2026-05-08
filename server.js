@@ -6,7 +6,7 @@ const options = {
   password: 'IOTteam@123'
 };
 
-const companies = ['companyone','companytwo', 'companythree'];
+const companies = ['companyone','companytwo', 'companythree', 'companyfour'];
 
 const topics = [];
 companies.forEach(company => {
