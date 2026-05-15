@@ -6,11 +6,11 @@ const options = {
   password: 'IOTteam@123'
 };
 
-const companies = ['companyone','companytwo', 'companythree', 'companyfour'];
+const companies = ['companyone','companytwo', 'companythree', 'companyfour', 'companyfive'];
 
 const topics = [];
 companies.forEach(company => {
-  for (let i = 1; i <= 25; i++) {
+  for (let i = 1; i <= 25; i++) {                                                           
     topics.push(`${company}/d1/topic${i}|m/s`);
   }
 });
